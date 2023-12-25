@@ -10,6 +10,7 @@ function App() {
   const [forecast, setForecast] = useState(null);
 
 
+
   const handleSearchChange = (searchData) => {
     const [lat, lon] = searchData.value.split(" ");
 
@@ -27,8 +28,8 @@ function App() {
     })
   }
 
-   console.log(currentWeather);
-   console.log(forecast);
+  //  console.log(currentWeather);
+  //  console.log(forecast);
   return (
     <div className="container">
       <Search onSearchChange={handleSearchChange} />
