@@ -5,20 +5,20 @@ footer {
     text-align: center;
     padding: 1em 0;
     width: 100%;
-    font-size: 1.2em;
+    font-size: 1em;
   }
 
   /* CSS for icons */
 
 .social-icons {
     font-size: 24px;
-    margin-top: 20px;
+    margin-top: .7em;
     text-align: center;
   }
   
   .social-icon {
-      font-size: 32px; /* Increase icon size */
-      margin-right: 15px;
+      font-size: 1em; /* Increase icon size */
+      margin-right: .6em;
   }
   
   a{
