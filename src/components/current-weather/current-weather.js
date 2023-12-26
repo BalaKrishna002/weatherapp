@@ -2,7 +2,8 @@ import "./current-weather.css";
 
 const CurrentWeather = ({data}) => {
     return (
-        <div className="weather">
+        <div style={{textAlign: "center"}}>
+        <div className="weather" >
             <div className="top">
                 <div>
                     <p className="city">{data.city}</p>
@@ -34,6 +35,7 @@ const CurrentWeather = ({data}) => {
                     </div>
                 </div>
             </div>
+        </div>
         </div>
 
     );

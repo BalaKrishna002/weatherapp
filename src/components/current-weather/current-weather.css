@@ -1,13 +1,14 @@
 .weather {
-    width: 300px;
+    width: auto;
     border-radius: 6px;
     box-shadow: 10px -2px 20px 2px rgb(0 0 0 / 30%);
     color: #fff;
     background-color: #333;
     font-weight: 400;
-    font-size: 17px;
-    margin: 2em auto 0 auto;
+    font-size: 1rem;
+    margin: 2em auto;
     padding: 0 1.2em 1.2em 1.2em;
+    display: inline-block;
 }
 
 .top,
@@ -19,11 +20,12 @@
 
 .city {
     font-weight: 500;
-    font-size: 1em;
+    font-size: 1.2rem;
     line-height: 0;
     margin: 0;
     padding-top: 1em;
     word-wrap: break-word;
+    white-space: nowrap;
 }
 
 .weather-icon {
@@ -42,6 +44,7 @@
 .details {
     width: 100%;
     padding-left: 1.5em;
+    margin: 1em;
 }
 
 .parameter-row {

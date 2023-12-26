@@ -1,5 +1,5 @@
 .title{
-    font-size: 2em;
+    font-size: 1.5rem;
     font-weight: 700;
     margin: 1em;
 
@@ -13,8 +13,8 @@
     display: flex;
     align-items: center;
     cursor: pointer;
-    font-size: 1.2em;
-    padding: .3em 2em;
+    font-size: 1rem;
+    padding: .3em 1em;
 }
 
 .icon-small{
