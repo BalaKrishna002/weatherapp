@@ -1,6 +1,6 @@
-# WeatherApp using ReactJs [weatherapp](https://melodic-buttercream-a3359e.netlify.app/)
+# WeatherApp using ReactJs 
 
-Project Link: https://melodic-buttercream-a3359e.netlify.app/
+Project Link: [Project](https://weatherapp-five-alpha.vercel.app/)
 In the project directory, you can run:
 
 **Fork the repository and run locally**
