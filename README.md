@@ -1,7 +1,6 @@
 # WeatherApp using ReactJs 
 
-Project Link: [Project](https://weatherapp-five-alpha.vercel.app/)
-In the project directory, you can run:
+Project Link: [Link](https://weatherapp-five-alpha.vercel.app/)
 
 **Fork the repository and run locally**
 
