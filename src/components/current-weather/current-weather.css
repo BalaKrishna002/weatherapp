@@ -1,12 +1,12 @@
 .weather {
-    width: auto;
+    width: fit-content;
     border-radius: 6px;
     box-shadow: 10px -2px 20px 2px rgb(0 0 0 / 30%);
     color: #fff;
     background-color: #333;
     font-weight: 400;
     font-size: 1rem;
-    margin: 2em;
+    margin: 2em auto;
     padding: 0 1.2em 1.2em 1.2em;
     display: inline-block;
 }

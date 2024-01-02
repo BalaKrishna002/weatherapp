@@ -1,14 +1,23 @@
 import './App.css';
 import Search from './components/search/search';
-import Forecast from './components/forecast/forecast';
+import Forecast1 from './components/forecast/forecast1';
 import CurrentWeather from './components/current-weather/current-weather';
 import { WEATHER_API_URL, WEATHER_API_KEY } from './api';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
+import Footer from './components/footer/footer'
+import Loader from './components/loader/Loader';
+
 
 function App() {
   const [currentWeather, setCurrentWeather] = useState(null);
   const [forecast, setForecast] = useState(null);
+  const [loading , setLoading] = useState(true);
 
+  useEffect(()=>{
+    setTimeout( () => {
+      setLoading(false);
+    }, 1000);
+  }, [])
 
 
   const handleSearchChange = (searchData) => {
@@ -32,9 +41,15 @@ function App() {
   //  console.log(forecast);
   return (
     <div className="container">
-      <Search onSearchChange={handleSearchChange} />
-      {currentWeather && <CurrentWeather data={currentWeather} />}
-      {forecast && <Forecast data={forecast} />}
+      { loading ? <Loader /> :  
+        <div className="container">
+          <Search onSearchChange={handleSearchChange} />
+          {currentWeather && <CurrentWeather data={currentWeather} />}
+          {forecast && <Forecast1 data={forecast } />}
+          <Footer />
+        </div>
+      }
+      
     </div>
   );
 }

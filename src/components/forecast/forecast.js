@@ -21,7 +21,7 @@ const Forecast = ({ data }) => {
                                     <img alt="weather" className="icon-small" src={`icons/${item.weather[0].icon}.png`} ></img>
                                     <label className="day">{forecastDays[idx]}</label>
                                     <label className="description">{item.weather[0].description}</label>
-                                    <label className="min-max">{Math.round(item.main.temp_min)}<sup>o</sup>C / {Math.round(item.main.temp_min)}<sup>o</sup>C</label>
+                                    <label className="min-max">{Math.round(item.main.temp_min)}<sup>o</sup>C </label>
                                 </div>
                             </AccordionItemButton>
                         </AccordionItemHeading>
