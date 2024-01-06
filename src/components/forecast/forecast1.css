@@ -38,16 +38,21 @@
   .parameter-row {
     display: flex;
     justify-content: space-between;
-    line-height: 1.6;
-  }
+    line-height: 1.2;
+}
 
-  .parameter-label {
-      text-align: left;
-  }
-  
-  .parameter-value {
-      text-align: right;
-  }
+.parameter-label {
+    text-align: left;
+    font-weight: 400;
+    font-size: 1em;
+}
+
+.parameter-value {
+    text-align: right;
+    font-weight: 600;
+    font-size: .8em;
+
+}
 
   .title{
     font-size: 1.5rem;
