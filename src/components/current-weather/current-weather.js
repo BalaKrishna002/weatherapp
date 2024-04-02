@@ -7,9 +7,9 @@ const CurrentWeather = ({data}) => {
             <div className="top">
                 <div>
                     <p className="city">{data.city}</p>
-                    <p className="weather-decription">{data.weather[0].description}</p>
+                    <p className="weather-decription">{data.weather[0].description }</p>
                 </div>
-                <img alt="weather" className="weather-icon" src={`icons/${data.weather[0].icon}.png`} />
+                <img alt="weather" className="weather-icon" src={`icons/${data.weather[0].icon }.png`} />
             </div>
             <div className="bottom">
                 <p className="temperature">{Math.round(data.main.temp)}<sup>o</sup>C</p>

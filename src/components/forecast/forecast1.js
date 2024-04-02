@@ -8,7 +8,7 @@ const Forecast1 = ({ data }) =>{
 
     return(
         <>
-        <h3 className="title" style="text-decoration: underline;">For Next 7 days:</h3>
+        <h3 className="title" style={{textDecoration: "underline"}}>For Next 7 days:</h3>
         <div className="scroll-container" id="scrollContainer">
             <div className="scroll-content">
                 {data.list.splice(0, 7).map((item, idx) => (
